@@ -53,7 +53,7 @@ yarn build
 ```
 
 ### 3. Test
-Unit Test in Smart Contract and Front End
+Unit Test in Smart Contract
 ```shell
 yarn test
 ```
