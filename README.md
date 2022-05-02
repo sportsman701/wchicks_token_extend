@@ -47,7 +47,7 @@ REACT_APP_CHAIN_ID=[NETWORK_CHAIN_ID]
 ```
 
 ### 2. Build
-Build Smart Contract and Front End Code
+Build Smart Contract
 ```shell
 yarn build
 ```
@@ -59,7 +59,7 @@ yarn test
 ```
 
 ### 4. Deploy Contract
-Deploy Smart Contract on ropsten testnet and publish the contract`s ABI to the Front End side.
+Deploy Smart Contract on ropsten testnet and publish the contract`s ABI to the Front End side, build Front End Code.
 
 - Run Deploy Command
 ```shell

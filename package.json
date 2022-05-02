@@ -13,8 +13,8 @@
     "front-end:dev": "yarn workspace front-end dev",
     "test": "yarn smart-contract:test",
     "dev": "yarn front-end:dev",
-    "build": "yarn smart-contract:compile && yarn front-end:build",
-    "deploy": "yarn workspace smart-contract deploy",
+    "build": "yarn smart-contract:compile",
+    "deploy": "yarn workspace smart-contract deploy && yarn front-end:build",
     "verify": "yarn smart-contract:verify",
     "start": "yarn front-end:start"
   },
