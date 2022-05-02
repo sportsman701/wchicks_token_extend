@@ -75,7 +75,7 @@ Deployed [WChicks Contract at 0x776C6484Df043B2E97432ae8915745542F6ac9B3 on Rops
 <img width="1157" alt="Screenshot_2022-05-03_003805" src="https://user-images.githubusercontent.com/56865797/166290219-23c5a42c-feb5-47e7-97ef-43b0849ab6ed.png">
 
 - If the connected account is owner  
-  1. Token Details and Transfer feature
+  1. Token Details
 <img width="1145" alt="Screenshot_2022-05-03_003717" src="https://user-images.githubusercontent.com/56865797/166290304-5cbd8abe-298f-47d4-bf79-496eabe053a2.png">
-  2. Token owner features
+  2. Token functions 
 <img width="1040" alt="Screenshot_2022-05-03_003657" src="https://user-images.githubusercontent.com/56865797/166290332-90c596d7-1adf-4425-a40f-15f9a7de6d04.png">
