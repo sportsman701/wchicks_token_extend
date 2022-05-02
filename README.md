@@ -71,9 +71,9 @@ yarn start
 ## Result
 Deployed [WChicks Contract at 0x776C6484Df043B2E97432ae8915745542F6ac9B3 on Ropsten(Testnet)](https://ropsten.etherscan.io/address/0x776C6484Df043B2E97432ae8915745542F6ac9B3)
 
-- If the connected account is not owner
-![Image](./screenshots/Screenshot 2022-05-03 003805.jpg)
+- If the connected account is not owner  
+![Image](./screenshots/Screenshot_2022-05-03_003805.jpg)
 
-- If the connected account is owner
-![Image](./screenshots/Screenshot 2022-05-03 003717.jpg)
-![Image](./screenshots/Screenshot 2022-05-03 003657.jpg)
+- If the connected account is owner  
+![Image](./screenshots/Screenshot_2022-05-03_003717.jpg)  
+![Image](./screenshots/Screenshot_2022-05-03_003657.jpg)
