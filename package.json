@@ -1,0 +1,32 @@
+{
+  "name": "catheon_gaming",
+  "description": "Extend the WChicks token",
+  "version": "0.0.1",
+  "author": "seiji-ito",
+  "private": true,
+  "scripts": {
+    "smart-contract:test": "yarn workspace smart-contract test",
+    "smart-contract:compile": "yarn workspace smart-contract compile",
+    "smart-contract:verify": "yarn workspace smart-contract verify",
+    "front-end:build": "yarn workspace front-end build",
+    "front-end:start": "yarn workspace front-end start",
+    "front-end:dev": "yarn workspace front-end dev",
+    "test": "yarn smart-contract:test",
+    "dev": "yarn front-end:dev",
+    "build": "yarn smart-contract:compile && yarn front-end:build",
+    "deploy": "yarn workspace smart-contract deploy",
+    "verify": "yarn smart-contract:verify",
+    "start": "yarn front-end:start"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/smart-contract",
+      "**/smart-contract/**",
+      "**/front-end",
+      "**/front-end/**"
+    ]
+  }
+}
