@@ -2,7 +2,17 @@
 
 ## About
 Extend the [WChicks token](https://github.com/SolChicks/chicks-bridge-contracts/blob/master/hardhat/contracts/WChicks.sol)
-
+- Smart Contract
+   - applied total_supply limit (10 billion) toggling by _mintingFinished flag
+   - add fee percentage validation ( 90% >= fee percentage > 0%)
+   - fix some bugs (type issue)
+   - gas optimization
+      - changed some function`s visibility from "public" to "external"
+      - change transfer function (remove unnecessary validation)
+- Front End
+  - show the deployed token details
+  - if connected account is not token owner, he can only transfer
+  - if connected account is token owner, he can mint token, set service/presale address and set fee percentage
 ## Implement
 - Smart Contract  
 > Language: Solidity  
